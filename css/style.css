@@ -62,7 +62,7 @@ main {
   flex-direction: column;
   justify-content: space-around;
 
-  font-size: 1.65em;
+  font-size: 1.68em;
   flex-grow: 2;
   box-sizing: border-box;
   text-align: center;
@@ -199,7 +199,7 @@ footer {
 }
 
 .impressum {
-  font-size: 1.25em;
+  font-size: 1.6em;
   line-height: 2.3em;
 }
 /* end footer */
