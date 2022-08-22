@@ -34,7 +34,7 @@ header::before {
   content: "";
   position: absolute;
   opacity: .2;
-  background-image: url('../images/header-background.jpg');
+  background-image: url('../images/header-background.webp');
   background-size: cover;
 }
 
