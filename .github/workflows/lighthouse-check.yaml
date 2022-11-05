@@ -3,7 +3,7 @@
 name: lighthouse ci check
 on:
   workflow_run:
-    workflows: ["deploy"]
+    workflows: ["pages-build-deployment"]
     types: [completed]
 
 jobs:
