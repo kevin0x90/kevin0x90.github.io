@@ -3,6 +3,15 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    img-src 'self';
+    media-src 'self';
+    style-src 'self';
+    script-src 'self' 'sha256-47c9975e9f1b3e25ed449e2014bbb5c5ccfd8c7d94e1c3f6e95e762faaae5a94' 'sha256-e61fe9f445d2bac95ecc3e4cb558a2f065247c2df13e20f5f63d03ca0c14280c' 'strict-dynamic' www.googletagmanager.com https: 'unsafe-inline';
+    object-src 'none';
+    base-uri 'none';
+  ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -116,26 +125,9 @@
       </li>
     </ul>
   </footer>
-  <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "name": "Kevin Schönfeld - Softwareentwicklung und Beratung",
-    "url": "https://kevin0x90.github.io",
-    "sameAs": [
-      "https://github.com/kevin0x90",
-      "https://www.xing.com/profile/Kevin_Schoenfeld/cv",
-      "https://www.linkedin.com/in/kevin-s-0x90"
-    ]
-  }
-  </script>
+  <script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Kevin Schönfeld - Softwareentwicklung und Beratung","url":"https://kevin0x90.github.io","sameAs":["https://github.com/kevin0x90","https://www.xing.com/profile/Kevin_Schoenfeld/cv","https://www.linkedin.com/in/kevin-s-0x90"]}</script>
   <script async defer src="https://www.googletagmanager.com/gtag/js?id=G-8LVPK530DR"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-8LVPK530DR', { client_storage: 'none', anonymize_ip: true });
-  </script>
+  <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-8LVPK530DR', { client_storage: 'none', anonymize_ip: true });</script>
 </body>
 
 </html>
