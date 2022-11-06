@@ -1,5 +1,7 @@
 {
  "name": "Kevin Schoenfeld - Softwareentwicklung und Beratung",
+ "theme_color": "#D3D3D3",
+ "background-color": "#FFFFFF",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
