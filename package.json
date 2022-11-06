@@ -1,0 +1,22 @@
+{
+  "name": "kevin0x90.github.io",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "lighthouse": "lighthouse https://kevin0x90.github.io --output=html --output-path=./lighthouse-result.html --no-enable-error-reporting"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin0x90/kevin0x90.github.io.git"
+  },
+  "author": "kevin schoenfeld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevin0x90/kevin0x90.github.io/issues"
+  },
+  "homepage": "https://github.com/kevin0x90/kevin0x90.github.io#readme",
+  "devDependencies": {
+    "lighthouse": "^9.6.8"
+  }
+}

@@ -18,7 +18,7 @@ jobs:
           cache: 'npm'
 
       - name: run lighthouse check
-        run:  npx lighthouse https://kevin0x90.github.io --output=html --output-path=./lighthouse-result.html
+        run:  npm run lighthouse
 
       - name: store report
         uses: actions/upload-artifact@v3
