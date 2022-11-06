@@ -46,4 +46,4 @@ jobs:
           path: ./lighthouse-result.html
 
       - name: add report to summary
-        run: html-to-markdown ./lighthouse-result.html >> $GITHUB_STEP_SUMMARY
+        run: cat ./lighthouse-result.html >> $GITHUB_STEP_SUMMARY
