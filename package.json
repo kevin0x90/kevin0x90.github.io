@@ -4,7 +4,7 @@
   "description": "personal website",
   "main": "index.js",
   "scripts": {
-    "lighthouse": "lighthouse https://kevin0x90.github.io --output=html --output-path=./lighthouse-result.html --no-enable-error-reporting"
+    "lighthouse": "lighthouse https://kevin0x90.github.io --output=html --output-path=./lighthouse-result.html --no-enable-error-reporting --chrome-flags=\"--headless\""
   },
   "repository": {
     "type": "git",
