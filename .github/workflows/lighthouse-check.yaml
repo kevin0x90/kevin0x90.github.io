@@ -22,7 +22,7 @@ jobs:
 
       - name: install html to markdown
         run: |
-          sudo apt-get install html-to-markdown
+          sudo apt-get install php-league-html-to-markdown
 
       - name: checkout
         uses: actions/checkout@v3
