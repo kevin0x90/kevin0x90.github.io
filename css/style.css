@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   /* Solarized light colors */
   background-color: #fdf6e3;
-  color: #657b83;
+  color: #586e75;
 }
 
 /* begin header */
@@ -86,7 +86,7 @@ main {
 .technology-list {
   padding: 0;
   list-style: none;
-  color: #cb4b16;
+  color: #d33682;
 }
 
 .technology-list li {
