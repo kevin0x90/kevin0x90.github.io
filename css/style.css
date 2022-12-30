@@ -30,7 +30,7 @@ header {
 }
 
 a {
-  color: #268bd2;
+  color: #000000;
 }
 
 header::before {
@@ -86,7 +86,7 @@ main {
 .technology-list {
   padding: 0;
   list-style: none;
-  color: #d33682;
+  color: #000000;
 }
 
 .technology-list li {
