@@ -12,6 +12,9 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  /* Solarized light colors */
+  background-color: #fdf6e3;
+  color: #657b83;
 }
 
 /* begin header */
@@ -24,6 +27,10 @@ header {
   align-self: flex-start;
   box-sizing: border-box;
   text-align: center;
+}
+
+a {
+  color: #268bd2;
 }
 
 header::before {
@@ -45,6 +52,7 @@ header::before {
   margin: 0;
   align-self: center;
   font-family: 'Times New Roman', serif;
+  color: #000000;
 }
 
 .profile-picture {
@@ -78,6 +86,7 @@ main {
 .technology-list {
   padding: 0;
   list-style: none;
+  color: #cb4b16;
 }
 
 .technology-list li {
