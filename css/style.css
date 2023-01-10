@@ -77,6 +77,8 @@ main {
   padding-left: 2vw;
   padding-right: 2vw;
   hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
 }
 
 .offerings-text {
