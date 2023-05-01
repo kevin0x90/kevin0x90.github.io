@@ -216,6 +216,7 @@ footer {
   list-style: none;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -229,6 +230,11 @@ footer {
 .social-contact-list li a img {
   width: 3em;
   height: 3em;
+}
+
+.social-contact-list li.greenweb img {
+  height: 7em;
+  width: auto;
 }
 
 .social-contact-list li.impressum {
