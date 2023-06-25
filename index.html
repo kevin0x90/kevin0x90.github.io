@@ -5,10 +5,11 @@
   <meta charset="utf-8">
   <meta http-equiv="Content-Security-Policy" content="
     default-src 'self' *.google-analytics.com;
+    frame-src https://consentcdn.cookiebot.com;
     img-src 'self' www.googletagmanager.com https://api.thegreenwebfoundation.org;
     media-src 'self';
-    style-src 'self';
-    script-src-elem 'self' 'nonce-gtag' 'sha256-1E11zL5UuaQhOHAInXUYFr9MwEWt2Emsmba8F19b9oQ=' 'sha256-R8mXXp8bPiXtRJ4gFLu1xcz9jH2U4cP26V52L6quWpQ=' 'sha256-ghtQceHWFKriEEg7ZTbY/AKEDSnYzkoCdKfw9US93ls=' 'strict-dynamic' https://www.googletagmanager.com https: 'unsafe-inline';
+    style-src 'self' *.cookiebot.com 'unsafe-inline';
+    script-src-elem 'self' 'nonce-gtag' 'nonce-cookiebot' 'nonce-cookiedeclaration' 'sha256-1E11zL5UuaQhOHAInXUYFr9MwEWt2Emsmba8F19b9oQ=' 'sha256-R8mXXp8bPiXtRJ4gFLu1xcz9jH2U4cP26V52L6quWpQ=' 'sha256-ghtQceHWFKriEEg7ZTbY/AKEDSnYzkoCdKfw9US93ls=' 'strict-dynamic' https://www.googletagmanager.com https: 'unsafe-inline';
     script-src 'self' 'nonce-gtag' 'sha256-R8mXXp8bPiXtRJ4gFLu1xcz9jH2U4cP26V52L6quWpQ=' 'sha256-5h/p9EXSuslezD5MtVii8GUkfC3xPiD19j0DygwUKAw=' 'sha256-ghtQceHWFKriEEg7ZTbY/AKEDSnYzkoCdKfw9US93ls=' 'strict-dynamic' https://www.googletagmanager.com https: 'unsafe-inline';
     object-src 'none';
     base-uri 'none';
@@ -48,6 +49,13 @@
 
   <link rel="canonical" href="https://consulting.ks-software.digital/" />
   <link rel="stylesheet" href="css/style.css">
+  <script id="Cookiebot"
+    nonce="cookiebot"
+    src="https://consent.cookiebot.com/uc.js"
+    data-cbid="5bdf1218-8933-404d-8d0d-40e0047c5c80"
+    data-blockingmode="auto"
+    type="text/javascript">
+  </script>
 </head>
 
 <body>
@@ -142,5 +150,4 @@
   <script async defer nonce="gtag" src="https://www.googletagmanager.com/gtag/js?id=G-8LVPK530DR" crossorigin="anonymous"></script>
   <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-8LVPK530DR', { client_storage: 'none', anonymize_ip: true });</script>
 </body>
-
 </html>
